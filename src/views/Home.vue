@@ -235,6 +235,7 @@ ul {
   position: fixed;
   top: 0;
   bottom: 0;
+  z-index: 2;
 }
 
 .icons {
@@ -259,7 +260,7 @@ ul {
   // left: 4.4rem;
   transform: translateX(0);
   background: gold;
-  padding: 0 5em;
+  padding: 2em 5em;
   opacity: 0;
   transition: all 600ms ease-in-out;
 }
